@@ -21,7 +21,7 @@ class StringExamplesTest {
 
     @Test
     void returnNullIfInputIsNull() {
-        assertNull(null, stringExamples.reverseInputString(null));
+        assertNull(stringExamples.reverseInputString(null));
     }
 
     @Test
